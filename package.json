@@ -23,7 +23,7 @@
   "dependencies": {
 	"codemirror": "codemirror/CodeMirror",
 	"codemirror-spell-checker": "nextstepwebs/codemirror-spell-checker",
-	"marked": "0.3.5"
+	"marked": "git+https://github.com/ytxiuxiu/marked.git"
   },
   "devDependencies": {
 	"browserify": "^11.2.0",
