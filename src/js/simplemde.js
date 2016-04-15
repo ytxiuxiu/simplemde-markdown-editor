@@ -1672,9 +1672,9 @@ SimpleMDE.prototype.createToolbar = function(items) {
 			var nonSeparatorIconsFollow = false;
 
 			for(var x = (i + 1); x < items.length; x++) {
-				console.log(x);
+				// console.log(x); removed by xiuxiu
 				if(items[x] !== "|" && (!self.options.hideIcons || self.options.hideIcons.indexOf(items[x].name) == -1)) {
-					console.log(items[x]);
+					// console.log(items[x]); removed by xiuxiu
 					nonSeparatorIconsFollow = true;
 				}
 			}
